@@ -8,9 +8,3 @@
     }
     
 }
-/* for company name hidden */
-@media only screen and (max-width:768px){
-    .company-invisible{
-        visibility: hidden;
-    }
-}
