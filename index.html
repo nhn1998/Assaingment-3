@@ -12,7 +12,7 @@
     <!-- navbar section start -->
     <header class="container">
         <section>
-            <nav class="navbar navbar-expand-lg bg-light mb-5">
+            <nav class="navbar navbar-expand-lg bg-light mb-5 fixed-top">
                 <div class="container">
                   <a class="navbar-brand fw-bold href=""><span class="h2 text-primary">Education</span></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,10 +21,12 @@
                   <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                       <a class="nav-link active p-3" aria-current="page" href="#">Home</a>
-                      <a class="nav-link active p-3" href="#">Topics</a>
-                      <a class="nav-link active p-3" href="#">Course information</a>
-                      <a class="nav-link active p-3" href="#">Registration</a>
-                      <a class="nav-link active p-3">About Us</a>
+                      <a class="nav-link active p-3" href="#topics">Topics</a>
+                      <a class="nav-link active p-3" href="#learning">Elearning</a>
+                      <a class="nav-link active p-3" href="#course">Course information</a>
+                      <a class="nav-link active p-3" href="#registar">Registration</a>
+                    <a class="nav-link active p-3" href="#question">Question</a>
+                      <a class="nav-link active p-3" href="#footer">About Us</a>
                     </div>
                   </div>
                 </div>
@@ -66,7 +68,7 @@
     </header>
     <!-- card section start -->
     <main>
-      <section class="container">
+      <section id="course" class="container">
         <div class="text-center pb-5">
           <h1>Discover Our Popular Courses</h1>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -123,12 +125,37 @@
       </section>
       <!-- card section end -->
       <!-- Elearing sections start -->
-      <section>
+      <section id="learning" class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-2 row-cols-md-2">
+          <div class="col">
+            <img src="images/working.png" class="img-fluid" alt="">
+          </div>
+          <div class="col pt-5">
+            <h1 class="text-center mb-5">Explore The elearning Institute</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
 
+              Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+              <div class="row row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                  <h1>3.2K+</h1>
+                <p>Online Courses</p>
+                </div>
+                <div class="col">
+                  <h1>600+</h1>
+                  <p>Expert Member</p>
+                </div>
+                <div class="col">
+                  <h1>1K+</h1>
+                  <p>Rating & Review</p>
+                </div>
+              </div>
+              <div class="btn btn-primary">Read More</div>
+          </div>
+        </div>
       </section>
       <!-- Elearing sections end -->
       <!-- registar section Started -->
-      <section class="container pb-5">
+      <section id="registar" class="container py-5">
         <div>
           <div class="row bg-info p-5 border rounded-3">
             <div class="col-lg-6 col-md-12">
@@ -164,7 +191,7 @@
       </section>
       <!-- registar section end -->
       <!-- successful student section start -->
-        <section class="container pt-5">
+        <section id="topics" class="container pt-5">
             <div class="pb-5">
               <h1 class="fw-bold">Meet Our Successful <br> Students</h1>
           <p>It is a long established fact that a reader will be distracted <br> by the readable content of a page when looking at its layout.</p>
@@ -211,7 +238,7 @@
         </section>
       <!-- successful student section end -->
       <!-- frequently ask question start -->
-      <section class="container my-5">
+      <section id="question" class="container my-5">
         <div class="pb-5">
           <h1 class="fw-bold text-center">Frequently Asked Questions</h1>
           <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -303,7 +330,7 @@
       <!-- company name and company logo end -->
     </main>
     <!-- footer section start -->
-    <footer class="bg-dark">
+    <footer id="footer" class="bg-dark">
       <div class="p-5">
         <h1 class="text-light fw-bold text-center">Education</h1>
       <p class="text-light text-center">Office 41, Zawaya Buildin, Ghala Muscat, 
